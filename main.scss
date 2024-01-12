@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .container {
+    display: flex;
+  }
+  .firstDiv,
+  .secDiv {
+    background: #9dbc98;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .secDiv {
+    background: #638889;
+  }
+  .heh {
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    background: #ebd9b4;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0);
+    &:nth-child(2n) {
+      background: #7e6363;
+    }
+  }
+}
